@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  min-height: 100vh;
+  font-family: cursive;
+  background-color: #212121;
+}
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 5%;
+}
+.logo {
+  font-size: 4rem;
+  color: white;
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.nav-links a:hover {
+  color: #212121;
+  background-color: white;
+}
+main {
+  min-height: calc(100vh - 76px);
+  background-image: url(olivier-piquer-PV26u-tR3fw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main h1 {
+  text-align: center;
+  font-size: 5rem;
+  line-height: 6rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+.button {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+main button {
+  outline: none;
+  border: none;
+  width: 160px;
+  height: 45px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.learn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.subscribe {
+  background-color: white;
+  color: #212121;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.learn:hover {
+  background-color: white;
+  color: #212121;
+}
+
+.subscribe:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+@media screen and (max-width:795px) {
+    
+}
